@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Frutiger Aero / Y2K Theme Example</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <marquee behavior="scroll" direction="left">Welcome to My Vaporwave Frutiger Aero Theme! ✨🌐✨</marquee>
+  <nav>
+    <ul>
+      <li><a href="#about">About Me</a></li>
+      <li><a href="#gallery">Gallery</a></li>
+      <li><a href="#music">Music</a></li>
+    </ul>
+  </nav>
+
+  <div class="container">
+    <div class="column">
+      <h2 id="about">About Me</h2>
+      <img src="profile-pic.png" alt="Profile Picture" class="profile-pic">
+      <ul>
+        <li>Likes: Vaporwave, Cyberpunk, Old Web</li>
+        <li>Dislikes: Slow internet, Modern web trends</li>
+      </ul>
+    </div>
+    <div class="column">
+      <h2>Links</h2>
+      <ul>
+        <li><a href="#">My Portfolio</a></li>
+        <li><a href="#">Myspace Revival</a></li>
+        <li><a href="#">Retro Web Club</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <audio controls>
+    <source src="your-audio-file.mp3" type="audio/mp3">
+    Your browser does not support the audio element.
+  </audio>
+
+  <footer>
+    <p>Made with 💻 by Splicer</p>
+  </footer>
+
+  <!-- Floating Image -->
+  <img src="errant1.png" class="floating-img" alt="Floating Image">
+
+  <style>
+    body {
+      background: url('tile-bg.png') repeat;
+      font-family: 'CustomFontHeader', sans-serif;
+    }
+    nav ul {
+      display: flex;
+      justify-content: space-around;
+      background-color: #0095FF;
+    }
+    nav a {
+      color: #FFFFFF;
+      text-decoration: none;
+    }
+    nav a:hover {
+      color: #FF00FF;
+    }
+    .container {
+      display: flex;
+      justify-content: space-between;
+      padding: 20px;
+    }
+    .profile-pic {
+      border-radius: 50%;
+      width: 150px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    }
+    .floating-img {
+      position: absolute;
+      animation: float 6s infinite ease-in-out;
+    }
+    @keyframes float {
+      0% { transform: translateY(0); }
+      50% { transform: translateY(-20px); }
+      100% { transform: translateY(0); }
+    }
+  </style>
+</body>
+</html>
